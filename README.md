@@ -29,4 +29,5 @@ Escolhemos usar Regressão Logística, Random Forest, Gradient Booster e K-Neare
 --->
 
 **O PROJETO AINDA ESTÁ EM EXECUÇÃO, E O PRÓXIMO PASSO É A ESCOLHA DO MODELO**
+
 **O PASSO FINAL SERÁ CRIAR UM PIPELINE COM TODO O PROCESSAMENTO E MODELAGEM DOS DADOS**
