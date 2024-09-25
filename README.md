@@ -28,6 +28,7 @@ Além disso, os dados passaram por uma transformação PCA, e por isso a maior p
 Escolhemos usar Regressão Logística, Random Forest, Gradient Booster e K-Nearest Neabors.
 --->
 
+
 **O PROJETO AINDA ESTÁ EM EXECUÇÃO, E O PRÓXIMO PASSO É A ESCOLHA DO MODELO**
 
 **O PASSO FINAL SERÁ CRIAR UM PIPELINE COM TODO O PROCESSAMENTO E MODELAGEM DOS DADOS**
