@@ -23,12 +23,17 @@ Além disso, os dados passaram por uma transformação PCA, e por isso a maior p
 3. Dividimos os dados em teste e treino.
 4. Balanceamos os dados de treino, salvando em novas variáveis, para comparar posteriormente. Utilizamos o Random Over Sample.
 
-<!---
+
 ## Modelagem:
-Escolhemos usar Regressão Logística, Random Forest, Gradient Booster e K-Nearest Neabors.
+Escolhemos usar Regressão Logística e Random Forest. E utilizamos matrizes de confusão, acurácia, acurácia balanceada e f1 score para avaliar os modelos. Observamos que:
+* Na Regressão Logística, o modelo com over sample foi melhor apenas na acurácia balanceada, e não houve over fitting.
+* No Random Forest, o modelo com over sample foi pouco melhor que o sem over sample. E, no geral, de acordo com as métricas, perfomou melhor que a Regressão Logística.
+Aqui, a matriz de confusão foi menos útil que as métricas e, nos baseando nestas, escolhemos prosseguir com o Random Forest, na versão com o over sample.
+
+<!---
 --->
 
 
-**O PROJETO AINDA ESTÁ EM EXECUÇÃO, E O PRÓXIMO PASSO É A ESCOLHA DO MODELO**
+**O PROJETO AINDA ESTÁ EM EXECUÇÃO, E O PRÓXIMO PASSO É O TUNNING**
 
 **O PASSO FINAL SERÁ CRIAR UM PIPELINE COM TODO O PROCESSAMENTO E MODELAGEM DOS DADOS**
